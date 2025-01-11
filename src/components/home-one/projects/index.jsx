@@ -36,20 +36,6 @@ const projectsData = [
       "FinTrust that migrates the legacy systems to the cloud to improve scalability, security, and cost-efficiency.",
     img: Project4Img,
   },
-  {
-    id: crypto.randomUUID(),
-    title: "Real Estate Agency CRM",
-    description:
-      "A custom CRM system to manage client interactions, property listings, and sales pipelines.",
-    img: Project1Img,
-  },
-  {
-    id: crypto.randomUUID(),
-    title: "AI-Driven Inventory Management System",
-    description:
-      "UrbanMart with inventory management, leading to overstocking and stockouts.",
-    img: Project2Img,
-  },
 ];
 
 const swiperSettings = {

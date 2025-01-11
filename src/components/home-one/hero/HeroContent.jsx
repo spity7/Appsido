@@ -20,7 +20,8 @@ function HeroContent() {
               A creative
               <img width={80} src={Code} alt="StarImg" />
             </span>{" "}
-            design studio
+            <div></div>
+            IT Company
           </h1>
         </FadeInStaggerTwoChildren>
         <FadeInStaggerTwoChildren>

@@ -6,7 +6,7 @@ function Faq() {
 		<div className="section aximo-section-padding6">
 			<div className="container">
 				<div className="aximo-section-title center familjen-grotesk">
-					<h2>Increase revenue with custom SEO</h2>
+					<h2>Frequently Asking Quenstions</h2>
 				</div>
 				<div className="row">
 					<FadeInUp>

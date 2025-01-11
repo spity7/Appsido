@@ -80,8 +80,8 @@ function HomeOne() {
       <ServicesTwo />
       <About />
       <Projects />
-      <AutoSlider />
       <Faq />
+      <AutoSlider />
     </>
   );
 }
