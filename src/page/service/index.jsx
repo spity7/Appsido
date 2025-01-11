@@ -5,74 +5,51 @@ import Services from "../../components/home-one/services";
 import WhyChooseUs from "../../components/home-one/why-choose-us";
 
 const services = [
-	{
-		id: crypto.randomUUID(),
-		title: "UI/UX Design",
-		description:
-			"Focusing on user interface (UI) and user experience (UX) design enhance the usability and accessibility of digital products & app.",
-		icon: "icon-design-tools",
-	},
-	{
-		id: crypto.randomUUID(),
-		title: "Graphic Design",
-		description:
-			"Creating visual elements such as logos, branding materials, page layout techniques, brochures, & other marketing collateral.",
-		icon: "icon-branding",
-	},
-	{
-		id: crypto.randomUUID(),
-		title: "Web Design",
-		description:
-			"Designing and developing websites to ensure they are visually look and appealing, user-friendly, and functional your website.",
-		icon: "icon-web",
-	},
-	{
-		id: crypto.randomUUID(),
-		title: "Motion Graphics",
-		description:
-			"Creating animate graphics, videos for various purposes, including marketing and entertainment. To help sell a product or service.",
-		icon: "icon-design-thinking",
-	},
-	{
-		id: crypto.randomUUID(),
-		title: "Packaging Design",
-		description:
-			"Creating packaging solutions for products that not only protect them but also attract customers on store shelves.",
-		icon: "icon-layers",
-	},
-	{
-		id: crypto.randomUUID(),
-		title: "Logo and Branding",
-		description:
-			"Creating animate graphics, videos for various purposes, including marketing and entertainment. To help sell a product or service.",
-		icon: "icon-rating-stars-1",
-	},
-	{
-		id: crypto.randomUUID(),
-		title: "Illustration",
-		description:
-			"Producing custom illustrations for editorial content, books, websites, marketing materials, magazines and more.",
-		icon: "icon-chef",
-	},
-	{
-		id: crypto.randomUUID(),
-		title: "Product Design",
-		description:
-			"Developing the look and feel of physical products, considering ergonomics, aesthetics, and functionality.",
-		icon: "icon-target-1",
-	},
+  {
+    id: crypto.randomUUID(),
+    title: "Web Services",
+    description:
+      "At Appsido, we create stunning, high-performance websites that captivate your audience and drive results. Whether you need a simple landing page or a complex web application, our team delivers tailored solutions to meet your business goals.",
+    icon: "icon-design-tools",
+  },
+  {
+    id: crypto.randomUUID(),
+    title: "App Services",
+    description:
+      "From concept to launch, we develop mobile apps that are intuitive, feature-rich, and scalable. Whether you need an iOS, Android, or cross-platform app, Appsido has the expertise to bring your vision to life.",
+    icon: "icon-branding",
+  },
+  {
+    id: crypto.randomUUID(),
+    title: "AI Services",
+    description:
+      "Leverage AI to automate processes, gain insights, and make smarter decisions. Our AI solutions are designed to help your business stay ahead in a competitive market.",
+    icon: "icon-web",
+  },
+  {
+    id: crypto.randomUUID(),
+    title: "IT Services",
+    description:
+      "Navigating the world of technology can be challenging. Our IT consulting services provide expert guidance to help you make informed decisions and achieve your business objectives.",
+    icon: "icon-design-thinking",
+  },
+  {
+    id: crypto.randomUUID(),
+    title: "E-Commerce Solutions",
+    description:
+      "Create a seamless shopping experience for your customers with our end-to-end e-commerce solutions. From platform selection to payment integration, we handle it all.",
+    icon: "icon-layers",
+  },
 ];
 
 function ServicePage() {
-	return (
-		<>
-			<BreadCrumb title="Service" />
-			<Services services={services} />
-			<AutoSlider />
-			<WhyChooseUs />
-			<TwoColumnFaq />
-		</>
-	);
+  return (
+    <>
+      <BreadCrumb title="Service" />
+      <Services services={services} />
+      <AutoSlider />
+    </>
+  );
 }
 
 export default ServicePage;

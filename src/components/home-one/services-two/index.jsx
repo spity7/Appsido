@@ -1,7 +1,7 @@
 import Accordion from "./Accordion";
 import Content from "./Content";
 
-function WhyChooseUs() {
+function ServicesTwo() {
   return (
     <div className="section">
       <div className="container">
@@ -20,4 +20,4 @@ function WhyChooseUs() {
   );
 }
 
-export default WhyChooseUs;
+export default ServicesTwo;

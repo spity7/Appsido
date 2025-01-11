@@ -1,5 +1,5 @@
 import Shape1Img from "../../../assets/images/v1/shape1.png";
-import Star2Img from "../../../assets/images/v1/star2.png";
+import Code from "../../../assets/images/v1/code.png";
 
 function FooterContent() {
   return (
@@ -8,23 +8,26 @@ function FooterContent() {
         <span className="aximo-title-animation">
           Lets start a
           <span className="aximo-title-icon">
-            <img src={Star2Img} alt="Star2Img" />
+            <img width={70} src={Code} alt="Code" />
           </span>
         </span>
         <br />
         project together
       </h2>
       <p>
-        We work closely with our clients to understand their objectives, target
-        audience, and unique needs. We use our creative skills to translate
-        these requirements and practical design solutions.
+        We aim to establish a strong online presence, attract potential clients,
+        and showcase our expertise in the IT solutions industry. Let’s
+        collaborate to bring Appsido’s vision to life!
       </p>
       <div className="aximo-info-wrap">
         <div className="aximo-info">
           <ul>
             <li>Give us a call:</li>
             <li>
-              <a href="tel:(123) 456-7890">(123) 456-7890</a>
+              <a href="tel:+961 71 601 751">+961 71 601 751</a>
+            </li>
+            <li>
+              <a href="tel:+49 176 22777648">+49 176 22777648</a>
             </li>
           </ul>
         </div>
@@ -32,7 +35,7 @@ function FooterContent() {
           <ul>
             <li>Send us an email:</li>
             <li>
-              <a href="mailto:info@mthemeus.com">info@mthemeus.com</a>
+              <a href="mailto:Info@appsido.com">Info@appsido.com</a>
             </li>
           </ul>
         </div>
@@ -60,9 +63,6 @@ function FooterContent() {
             </a>
           </li>
         </ul>
-      </div>
-      <div className="aximo-hero-shape aximo-footer-shape">
-        <img src={Shape1Img} alt="Shape1Img" />
       </div>
     </div>
   );

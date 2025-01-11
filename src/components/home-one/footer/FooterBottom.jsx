@@ -1,4 +1,4 @@
-import LogoWhiteImg from "../../../assets/images/logo/logo-white.svg";
+import Logo from "../../../assets/images/logo/appsido-white.svg";
 
 function FooterBottom() {
   return (
@@ -6,13 +6,13 @@ function FooterBottom() {
       <div className="col-lg-6">
         <div className="aximo-footer-logo">
           <a href="">
-            <img src={LogoWhiteImg} alt="Logo" />
+            <img src={Logo} alt="Logo" />
           </a>
         </div>
       </div>
       <div className="col-lg-6">
         <div className="aximo-copywright one">
-          <p> &copy; Copyright 2024, All Rights Reserved by Mthemeus</p>
+          <p> &copy; Copyright 2024, All Rights Reserved by Appsido</p>
         </div>
       </div>
     </>

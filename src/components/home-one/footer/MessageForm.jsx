@@ -38,7 +38,7 @@ function MessageForm() {
         </Field>
       </div>
       <div className="aximo-form-field">
-        <input type="text" placeholder="+088-234-6849" />
+        <input type="text" placeholder="+961-76-382-849" />
       </div>
       <div className="aximo-form-field">
         <textarea
